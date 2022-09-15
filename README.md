@@ -1,18 +1,25 @@
-# portal-components
+# 低代码自定义组件
 
-一个面向PC的大包业务组件库
+业务组件库
 
-## 调试
-启动调试
-
-```
-fie start             # 打开开发环境，运行所有组件
-fie start <compName>  # 打开开发环境，运行特定组件(更快)
+## 构建
+```js
+npm run start  // dev
 ```
 
-构建
 
+```js
+npm run start  // build
 ```
-fie build
+
+
+```js
+npm run lowcode:dev  // 低代码dev
 ```
+
+
+```js
+npm run lowcode:build  // 低代码prod
+```
+
 
